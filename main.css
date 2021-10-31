@@ -122,3 +122,10 @@ nav{text-align: center;
 	padding-top: 50px;
 	padding-bottom:100px;
 }
+.back1{
+	min-height: 420px;
+	background-size: cover;
+	background-position: center;
+	background-image: url("img/img2.png");
+    background-attachment: fixed;
+}
