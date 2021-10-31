@@ -189,3 +189,13 @@ text-align: center;
 	letter-spacing: 2px;
 	font-family:'Poppins',sans-serif;
 }
+.lastfond{
+	background-image: url("img/img4.png");
+	background-size: cover;
+	min-height: 410px;
+	background-attachment: fixed;
+	background-position: center;
+}
+.blancspace{
+	height: 25px;
+}
