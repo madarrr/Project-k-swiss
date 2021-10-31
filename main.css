@@ -155,3 +155,9 @@ nav{text-align: center;
 	color: #005587;
 	font-family:'Poppins',sans-serif;
 }
+.fondbask{	
+	background-image: url("img/tel1.png");
+	background-size: cover;
+	min-height: 650px;
+	background-position: center;	
+}
