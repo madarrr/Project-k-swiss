@@ -225,4 +225,20 @@ text-align: center;
     header{
         display: none;
     }
+    .explain{
+        text-align: center;
+        text-justify: inter-word;
+        line-height: 10px;
+        margin: 25px;
+    }
+    .text1{
+        display: inline-table;
+    }
+    .text3{
+        display: inline-block;
+        text-align: center;
+        line-height: 25px;
+        margin: -25px;
+        
+    }
 }
