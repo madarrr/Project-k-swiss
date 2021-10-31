@@ -199,3 +199,25 @@ text-align: center;
 .blancspace{
 	height: 25px;
 }
+.foot{
+	background-color:#005587 ;
+	height: 250px;
+}
+.movelogoright{
+	text-align: right;
+	width: 175px;
+	height: 95px;
+	margin: 25px;
+
+}
+.foot p{
+	color: white;
+	margin: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:'Poppins',sans-serif;
+	font-size: 13.5px;
+}
+.styletrait{
+	width: 95%;
+}
