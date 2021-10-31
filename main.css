@@ -79,3 +79,10 @@ nav{text-align: center;
 	text-align: center;
 	margin-top: 50px;
 }
+.back{
+	min-height: 420px;
+	background-size: cover;
+	background-position: center ;
+	background-image: url("img/img1.png");
+    background-attachment: fixed;
+}
