@@ -9,3 +9,35 @@ html, body {
 	overflow: hidden;
 	height: 24px;
 }
+.logbar{
+	height: 40px;
+	background-color: #ffff;
+
+}
+.logbar a{
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}
+.topbar p{
+	display: inline;
+	font-size: small;
+}
+.gauche{
+	float: left;
+	margin-right: 10px;
+}
+.droite{
+	float: right;
+}
+.fab{
+	color: #005587;
+}
+.fas{
+	color: #005587;
+}
+.resize{
+	    width:25px;
+    height:15px;
+    text-align: center;
+}
