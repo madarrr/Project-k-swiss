@@ -273,4 +273,42 @@ text-align: center;
     .texthautvideo{
         text-align: center;
     }
+    .slides{
+        float: left; /*pour aligner horizontalement no image*/
+      }
+      .bask{
+        width: calc(500px*3); /*permet de donner la largeur du slide*/
+        animation: moov 6s infinite;
+      }
+      .slider{
+        width: 500px;
+        overflow: hidden; /* permet de cacher les autres images*/
+      }
+      .slideredim{
+          width: 500px;
+      }
+      /*keyframes sert */@keyframes moov{
+        0%{
+          transform: translateX(0);/* translatex permet de faire un mouvement sur axe des x */
+        }
+        10%{
+          transform: translateX(0); /*pour ajouter des pose dans le slide*/
+        }
+        33%{
+          transform:translateX(-500px);
+        }
+        43%{
+          transform: translateX(-500px);
+        }
+        66%{
+          transform:translateX(-1000px);
+        }
+        76%{
+          transform: translateX(-1000px);
+        }
+        100%{
+          transform:translateX(0);
+        }
+      }
+      
 }
