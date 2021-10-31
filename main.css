@@ -161,3 +161,13 @@ nav{text-align: center;
 	min-height: 650px;
 	background-position: center;	
 }
+.bask{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	
+}
+.textbas3photo{
+text-align: center;
+}
