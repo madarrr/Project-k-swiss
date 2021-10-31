@@ -310,5 +310,21 @@ text-align: center;
           transform:translateX(0);
         }
       }
+      .fondbask{	
+        display: none;
+            
+        }
+        .banner{
+            text-align: center;
+            height: 250px;
+        }
+        .banner p{
+            padding-top: 10px;
+            font-weight: bold;
+            color:#005587 ;
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-family:'Poppins',sans-serif;
+        }
       
 }
