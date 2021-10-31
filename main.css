@@ -326,5 +326,26 @@ text-align: center;
             letter-spacing: 2px;
             font-family:'Poppins',sans-serif;
         }
+        .foot{
+            background-color:#005587 ;
+            height: 250px;
+            text-align: center;
+        }
+        .movelogoright{
+            width: 185px;
+            height: 98px;    
+        }
+        .foot p{
+            color: white;
+            text-align: center;
+            margin: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family:'Poppins',sans-serif;
+            font-size: 12.5px;
+        }
+        .styletrait{
+            width: 65%;
+        }
       
 }
