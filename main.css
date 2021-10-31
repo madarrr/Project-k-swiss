@@ -86,3 +86,34 @@ nav{text-align: center;
 	background-image: url("img/img1.png");
     background-attachment: fixed;
 }
+.explain{
+	text-align: center;
+	
+	line-height: 10px;
+	margin: 25px;
+}
+.text1{
+	display: inline-table;
+	text-justify: inter-word;
+	text-align: justify;
+}
+.text2{
+		display: inline-table;
+	text-justify: inter-word;
+	text-align: justify;
+	margin-left: 15px;
+}
+.textblue{
+	font-size: x-large;
+	font-family: 'Poppins',sans-serif;
+	color:#005587;
+	font-weight: bold;
+}
+.text3{
+	display: block;
+	margin-left: 580px;
+	text-justify: inter-word;
+	text-align: justify;
+
+	
+}
