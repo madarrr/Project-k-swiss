@@ -251,4 +251,26 @@ text-align: center;
         width: 450px;
         height: 320px;
     }
+    .multivid{
+        text-align: center;
+        display: inline;
+        vertical-align: middle;
+        float: none;
+        
+    }
+    .multivid iframe{
+        width: 100%;
+    }
+    .multivid p{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .texthautvideo p{
+        padding-top: 25px;
+        padding-bottom:5px;
+        font-style: normal;
+    }
+    .texthautvideo{
+        text-align: center;
+    }
 }
