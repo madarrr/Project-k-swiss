@@ -241,4 +241,14 @@ text-align: center;
         margin: -25px;
         
     }
+    .vid{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom:100px;
+    
+    }
+    .vid iframe{
+        width: 450px;
+        height: 320px;
+    }
 }
