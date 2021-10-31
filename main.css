@@ -129,3 +129,29 @@ nav{text-align: center;
 	background-image: url("img/img2.png");
     background-attachment: fixed;
 }
+.multivid{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:75px;
+	
+}
+.multivid p{
+	padding-top: 25px;
+}
+.texthautvideo p{
+	padding-top: 25px;
+	padding-bottom:5px;
+	font-style: normal;
+}
+.texthautvideo{
+	text-align: center;
+}
+
+.bigp{
+	font-weight: bold;
+	font-size: xx-large;
+	color: #005587;
+	font-family:'Poppins',sans-serif;
+}
