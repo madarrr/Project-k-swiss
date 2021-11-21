@@ -241,14 +241,13 @@ text-align: center;
 
       }
     .back{
-	min-height: 120px;
-	
+	min-height: 350px;
 	background-size: 100%;
 	background-position: center ;
 	background-image: url("img/img1.png");
     background-attachment: fixed;
     background-repeat:no-repeat;
-        
+          
    
 }
     .explain{
@@ -260,6 +259,8 @@ text-align: center;
     }
     .text1{
         display: inline-table;
+        line-height: 10px;
+        
     }
     .text3{
         display: inline-block;
