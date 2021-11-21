@@ -242,7 +242,7 @@ text-align: center;
       }
     .back{
 	min-height: 350px;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center ;
 	background-image: url("img/img1.png");
     background-attachment: fixed;
