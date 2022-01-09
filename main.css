@@ -1,0 +1,392 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.topbar{
+	width: 100%;
+	background: #f4f4f4;
+	text-align: center;
+	overflow: hidden;
+	height: 24px;
+}
+.logbar{
+	height: 40px;
+	background-color: #ffff;
+
+}
+.logbar a{
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}
+.topbar p{
+	display: inline;
+	font-size: small;
+}
+.gauche{
+	float: left;
+	margin-right: 10px;
+}
+.droite{
+	float: right;
+}
+.fab{
+	color: #005587;
+}
+.fas{
+	color: #005587;
+}
+.resize{
+	    width:25px;
+    height:15px;
+    text-align: center;
+}
+nav{text-align: center;
+}
+.menu{
+	background-color: #005587 ;
+	height: 75px;
+	text-align: center;
+
+}
+.menu a {
+	display: inline-block;
+	margin: 20px;
+
+}
+
+.redimlogo{
+	width: 150px;
+	height: 35px;
+		
+}
+.menuelmt{
+	text-transform: uppercase;
+	color: white;
+	float: left;
+    letter-spacing: 1.5px;
+	text-decoration: none;
+	padding-top: 10px;
+
+}
+.menuelmxeul{
+	text-transform: uppercase;
+	color: white;
+	float: left;
+    letter-spacing: 1.5px;
+}
+.redim-img{
+	text-align: center;
+	margin-top: 50px;
+}
+.back{
+	min-height: 420px;
+	background-size: cover;
+	background-position: center ;
+	background-image: url("img/img1.png");
+    background-attachment: fixed;
+}
+.explain{
+	text-align: center;
+	
+	line-height: 10px;
+	margin: 25px;
+}
+.text1{
+	display: inline-table;
+	text-justify: inter-word;
+	text-align: justify;
+}
+.text2{
+		display: inline-table;
+	text-justify: inter-word;
+	text-align: justify;
+	margin-left: 15px;
+}
+.textblue{
+	font-size: x-large;
+	font-family: 'Poppins',sans-serif;
+	color:#005587;
+	font-weight: bold;
+}
+.text3{
+	display: block;
+	margin-left: 580px;
+	text-justify: inter-word;
+	text-align: justify;
+
+	
+}
+.vid{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom:100px;
+}
+.back1{
+	min-height: 420px;
+	background-size: cover;
+	background-position: center;
+	background-image: url("img/img2.png");
+    background-attachment: fixed;
+}
+.multivid{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:75px;
+	
+}
+.multivid p{
+	padding-top: 25px;
+}
+.texthautvideo p{
+	padding-top: 25px;
+	padding-bottom:5px;
+	font-style: normal;
+}
+.texthautvideo{
+	text-align: center;
+}
+
+.bigp{
+	font-weight: bold;
+	font-size: xx-large;
+	color: #005587;
+	font-family:'Poppins',sans-serif;
+}
+.fondbask{	
+	background-image: url("img/tel1.png");
+	background-size: cover;
+	min-height: 650px;
+	background-position: center;	
+}
+.bask{
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	
+}
+.textbas3photo{
+text-align: center;
+}
+.avtdernierfond{
+	background-image: url("img/img3.png");
+	background-size: cover;
+	min-height: 410px;
+	background-attachment: fixed;
+	background-position: center;
+}
+.banner{
+	text-align: center;
+	height: 200px;
+}
+.banner p{
+	font-weight: bold;
+	color:#005587 ;
+	font-size: x-large;
+	letter-spacing: 2px;
+	font-family:'Poppins',sans-serif;
+}
+.lastfond{
+	background-image: url("img/img4.png");
+	background-size: cover;
+	min-height: 410px;
+	background-attachment: fixed;
+	background-position: center;
+}
+.blancspace{
+	height: 25px;
+}
+.foot{
+	background-color:#005587 ;
+	height: 250px;
+}
+.movelogoright{
+	text-align: right;
+	width: 175px;
+	height: 95px;
+	margin: 25px;
+
+}
+.foot p{
+	color: white;
+	margin: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:'Poppins',sans-serif;
+	font-size: 13.5px;
+}
+.styletrait{
+	width: 95%;
+}
+@media only screen  and (max-width: 600px) {
+   .logbar{
+   	width: 100%;
+   	background-color: #D8E9FE;
+   }
+   .topbar{
+   	display: none;
+   }
+   .menu{
+   	display: none;
+   }
+   .redim-img {
+   	overflow: hidden;
+   }
+    html ,body{
+    margin: 0%;
+    padding: 0%;
+
+      }
+    .back{
+	min-height: 350px;
+	background-size: cover;
+	background-position: center ;
+	background-image: url("img/img1.png");
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+          
+   
+}
+    .explain{
+        text-align: center;
+        text-justify: inter-word;
+        line-height: 25px;
+        margin: 25px;
+
+    }
+    .text1{
+        display: inline-table;
+        line-height: 10px;
+        
+    }
+    .text3{
+        display: inline-block;
+        text-align: center;
+        line-height: 25px;
+        margin: -25px;
+        
+    }
+    .vid{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom:25px;
+    
+    }
+    .vid iframe{
+        width: 100%;
+        height: 320px;
+    }
+    .multivid{
+        text-align: center;
+        display: inline;
+        vertical-align: middle;
+        float: none;
+        
+    }
+    .multivid iframe{
+        width: 100%;
+    }
+    .multivid p{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .texthautvideo p{
+        padding-top: 25px;
+        padding-bottom:5px;
+        font-style: normal;
+    }
+    .texthautvideo{
+        text-align: center;
+    }
+    .slides{
+        float: left; /*pour aligner horizontalement no image*/
+        overflow: hidden;
+      }
+      .bask{
+        width: calc(100%*3); /*permet de donner la largeur du slide*/
+        animation: moov 6s infinite;
+      }
+      .slider{
+        width: auto;
+        overflow: hidden; /* permet de cacher les autres images*/
+      }
+      .slideredim{
+          width: 100%;
+          height: 100%;
+      }
+      /*keyframes sert */@keyframes moov{
+        0%{
+          transform: translateX(0);/* translatex permet de faire un mouvement sur axe des x */
+        }
+        10%{
+          transform: translateX(0); /*pour ajouter des pose dans le slide*/
+        }
+        33%{
+          transform:translateX(-100px);
+        }
+        43%{
+          transform: translateX(-100px);
+        }
+        66%{
+          transform:translateX(-200px);
+        }
+        76%{
+          transform: translateX(-200px);
+        }
+        100%{
+          transform:translateX(0);
+        }
+      }
+      .fondbask{	
+        display: none;
+         overflow: hidden;
+            
+        }
+        .banner{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+             overflow: hidden;
+
+        }
+        .banner p{
+            padding-top: 10px;
+            font-weight: bold;
+            color:#005587 ;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-family:'Poppins',sans-serif;
+            width: 100%;
+        }
+        .foot{
+            background-color:#005587 ;
+            height: 250px;
+            text-align: center;
+            overflow: hidden;
+
+        }
+        .movelogoright{
+            width: 185px;
+            height: 98px;    
+        }
+        .foot p{
+            color: white;
+            text-align: center;
+            margin: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family:'Poppins',sans-serif;
+            font-size: 12.5px;
+        }
+        .styletrait{
+            width: 65%;
+        }
+        .lastfond{
+        	overflow: hidden;
+
+        }
+      
+}
